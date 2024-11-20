@@ -39,7 +39,7 @@ app.use('/api/thanhvien/',TvRouter)
 const TestRouter = require('./routers/thongtinkhachthue')
 app.use('/api/ttkt/',TestRouter)
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 800;
 app.listen(port, () => {
     console.log(`Server started on port ${port}`);
 });
